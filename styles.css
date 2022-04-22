@@ -21,6 +21,10 @@ body {
   height: 220px;
 }
 
+.video {
+  width: 450px;
+}
+
 @media only screen and (max-width: 600px) {
   #banner {
     width: 100%;
