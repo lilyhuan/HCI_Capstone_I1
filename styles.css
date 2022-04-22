@@ -7,3 +7,27 @@ body {
   margin-right: 30px;
   font-weight: bold;
 }
+
+.basecolor {
+  color: #808d2a;
+}
+
+#banner {
+  width: 100%;
+  background-image: url(assets/diy_banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner {
+    width: 100%;
+    background-image: url(assets/diy_banner_s.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+  }
+}
