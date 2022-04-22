@@ -10,10 +10,91 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
+
   <body>
-    <!--this is the begining of the page-->
+    <!-- Logo -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/logo.svg" alt="logo"
+        /></a>
+      </div>
+    </nav>
+    <!-- Nav Bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #77a03e"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav nav-fill mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New Quiz</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                All Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">DIY Composting</a></li>
+                <li><a class="dropdown-item" href="#">Social Composting</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Drop Off / Pick Up Composting</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Support Composting</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Database</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources for Big Businesses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
