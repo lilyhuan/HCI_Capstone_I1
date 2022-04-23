@@ -15,7 +15,7 @@ body {
 .question-txt{
   font-weight: 700;
   color: #6E7D0C;
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 28.0374px;
 }
 
@@ -26,7 +26,7 @@ body {
   border-radius: 28.0374px;
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
+  width: 100%; 
   margin-top: 20px;
 }
 
@@ -38,4 +38,3 @@ body {
 .btn-group-vertical button:hover {
   background-color: #E4ECD8;
 }
-
