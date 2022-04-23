@@ -8,23 +8,34 @@ body {
   font-weight: bold;
 }
 
-.btn-group button {
+.btn-group-vertical {
+  width: 80%;
+}
+
+.question-txt{
+  font-weight: 700;
+  color: #6E7D0C;
+  margin-top: 20px;
+  font-size: 28.0374px;
+}
+
+.btn-group-vertical button {
   background-color: #FFFFFF; /* White background */
   border: 2.6285px solid #6E7D0C; /* Green border */
   color: black; /* Black text */
   border-radius: 28.0374px;
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  width: 80%; /* Set a width if needed */
-  box-sizing: border-box;
-  display: block; /* Make the buttons appear below each other */
+  width: 100%; /* Set a width if needed */
+  margin-top: 20px;
 }
 
-.btn-group button:not(:last-child) {
+.btn-group-verticalbutton:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #77A03E;
+.btn-group-vertical button:hover {
+  background-color: #E4ECD8;
 }
+
