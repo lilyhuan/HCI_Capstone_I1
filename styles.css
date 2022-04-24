@@ -8,6 +8,101 @@ body {
   font-weight: bold;
 }
 
+.basecolor {
+  color: #808d2a;
+}
+
+/* DIY Composting Page */
+#banner {
+  width: 100%;
+  background-image: url(assets/diy_banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+.video {
+  width: 450px;
+}
+
+#classes {
+  width: 100%;
+  background-image: url(assets/classes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#phipps {
+  width: 100%;
+  background-image: url(assets/phipps.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#otherResults {
+  width: 100%;
+  background: rgba(110, 125, 12, .1);
+  background-position: center;
+}
+
+#FAQs {
+  width: 100%;
+  background-image: url(assets/skyline.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+/* MOBILE */
+.mobileHide {
+  display: inline;
+}
+
+.mobileShow {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner {
+    width: 100%;
+    background-image: url(assets/diy_banner_s.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+  }
+  #classes {
+    width: 100%;
+    background-image: url(assets/classes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+  }
+  #phipps {
+    width: 100%;
+    background-image: url(assets/phipps.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+  }
+
+  .mobileHide {
+    display: none;
+  }
+  .mobileShow {
+    display: inline;
+  }
+}
+
+
 .btn-group-vertical {
   width: 80%;
 }
