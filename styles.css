@@ -12,6 +12,7 @@ body {
   color: #808d2a;
 }
 
+/* DIY Composting Page */
 #banner {
   width: 100%;
   background-image: url(assets/diy_banner.svg);
@@ -25,6 +26,24 @@ body {
   width: 450px;
 }
 
+#classes {
+  width: 100%;
+  background-image: url(assets/classes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#phipps {
+  width: 100%;
+  background-image: url(assets/phipps.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
 @media only screen and (max-width: 600px) {
   #banner {
     width: 100%;
@@ -34,4 +53,21 @@ body {
     background-size: cover;
     height: 220px;
   }
+  #classes {
+    width: 100%;
+    background-image: url(assets/classes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+  }
+  #phipps {
+    width: 100%;
+    background-image: url(assets/phipps.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+  }
 }
+
