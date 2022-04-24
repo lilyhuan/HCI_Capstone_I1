@@ -44,6 +44,12 @@ body {
   height: 250px;
 }
 
+#otherResults {
+  width: 100%;
+  background: rgba(110, 125, 12, .1);
+  background-position: center;
+}
+
 /* MOBILE */
 .mobileHide {
   display: inline;
