@@ -43,6 +43,15 @@ body {
   background-size: cover;
   height: 250px;
 }
+/* #articles > .row {
+  overflow-x: auto;
+}
+#articles > .row > .col {
+  display: inline-block;
+  float: none;
+} */
+
+
 
 @media only screen and (max-width: 600px) {
   #banner {
