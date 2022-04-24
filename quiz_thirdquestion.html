@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="file:///C:/Users/Jailyn/Documents/GitHub/HCI_Capstone/assets/logo.svg" alt="Pittsburgh Composting logo"/><!-- remove this later I just did this to load the image -->
+          <img src="/assets/logo.svg" alt="Pittsburgh Composting logo"/><!-- remove this later I just did this to load the image -->
         </a>
       </div>
     </nav>
@@ -99,12 +99,28 @@
       </div>
     </nav>
 
-    <!-- quiz answers-->
+    <!-- quiz-->
     <div class="text-center">
-      <p class="question-txt mx-2">What would you use compost for?</p>
+      <p class="question-txt mx-2">What are your main concerns with composting?</p>
       <div class="btn-group-vertical">
-        <button onclick="nextQuestion()">I have a use for the compost.</button>
-        <button>I don’t have a use for compost, I just want to reduce my waste.</button>
+        <button class="question_button">It’s hard to find information on getting started.
+            <input class="form-check-input" type="checkbox" value="">
+        </button>
+        <button class="question_button">It’s hard to keep up the habit.
+          <input class="form-check-input" type="checkbox" value="">
+        </button>
+        <button class="question_button">I don’t have space to compost.
+          <input class="form-check-input" type="checkbox" value="">
+        </button>
+        <button class="question_button">I feel like I don’t have the time.
+          <input class="form-check-input" type="checkbox" value="">
+        </button>
+        <button class="question_button">I’m afraid it will smell.
+          <input class="form-check-input" type="checkbox" value="">
+        </button>
+        <button onclick="nextQuestion()" id="smallerbutton" type="button" class="my-4 btn mx-auto btn-warning">
+          Next 
+        </button>
       </div>
     </div>
 
@@ -113,7 +129,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
       function nextQuestion(){
-        location.href=""
+        location.href="quiz_fourthquestion.html"
       }
     </script>
   </body>
