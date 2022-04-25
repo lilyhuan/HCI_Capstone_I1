@@ -60,6 +60,11 @@ body {
   height: 220px;
 }
 
+#FAQButton {
+  width: 100%;
+  max-width: 300px;
+}
+
 /* MOBILE */
 .mobileHide {
   display: inline;
