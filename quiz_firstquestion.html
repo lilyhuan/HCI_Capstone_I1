@@ -22,10 +22,10 @@
 
   <body>
     <!-- Logo -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg mobileHide">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="/assets/logo.svg" alt="Pittsburgh Composting logo"/>
+          <img src="/assets/logo.svg" alt="Pittsburgh Composting logo" />
         </a>
       </div>
     </nav>
@@ -35,6 +35,9 @@
       style="background-color: #77a03e"
     >
       <div class="container-fluid">
+        <a class="navbar-brand mobileShow" href="index.html">
+          <img src="/assets/logo_mobile.svg" alt="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -101,9 +104,13 @@
 
     <!-- quiz-->
     <div class="text-center">
-      <p class="question-txt mx-2">Are you thinking of composting for a household or a business?</p>
+      <p class="question-txt mx-2">
+        Are you thinking of composting for a household or a business?
+      </p>
       <div class="btn-group-vertical">
-        <button class="question_button" onclick="nextQuestion()">A household.</button>
+        <button class="question_button" onclick="nextQuestion()">
+          A household.
+        </button>
         <button class="question_button">A small business.</button>
         <button class="question_button">A big business.</button>
       </div>
@@ -112,12 +119,12 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"> </script>
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript">
-      function nextQuestion(){
-        location.href="quiz_secondquestion.html"
+      function nextQuestion() {
+        location.href = "quiz_secondquestion.html";
       }
     </script>
   </body>
-
 </html>
