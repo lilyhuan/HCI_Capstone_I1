@@ -51,6 +51,20 @@ body {
   background-position: center;
 }
 
+#otherResults .card {
+  border-radius: 20%;
+}
+
+#otherResults h5 {
+  position: absolute;
+  bottom: 65px;
+}
+
+#otherResults p {
+  position: absolute;
+  bottom: 15px;
+}
+
 #FAQs {
   width: 100%;
   background-image: url(assets/skyline.svg);
