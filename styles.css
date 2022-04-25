@@ -88,6 +88,16 @@ body {
   display: none;
 }
 
+/* For the side scrolling - mobile only */
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  }
+  .scrollcard {
+    flex: 0 0 auto;
+  }
+
 @media only screen and (max-width: 600px) {
   #banner {
     width: 100%;
@@ -163,21 +173,3 @@ body {
   width: 30%;
 }
 
-
-/* .scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-  .card2 {
-    display: inline-block;
-  } */
-  .scrolling-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-  }
-    .scrollcard {
-      flex: 0 0 auto;
-    }
-  
