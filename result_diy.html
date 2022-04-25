@@ -116,7 +116,7 @@
         recycling!</p>
       </p>
       
-      <div class="video mx-auto"><div class="ratio ratio-16x9 container-sm">
+      <div class="container-sm video mx-auto"><div class="ratio ratio-16x9 container-sm">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QhUWOiEc9I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div></div>
       <!-- How to Get Started -->
@@ -252,7 +252,7 @@
       </div>
 
       <!-- Articles Mobile -->
-      <div id="carouselControls" class="carousel slide mobileShow" >
+      <div id="carouselExampleControls" class="carousel slide mobileShow" >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="card mx-auto shadow" style="width: 18rem;">
@@ -279,17 +279,17 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlss" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
 
-      <!-- Books -->
+      <!-- Books Desktop -->
       <div class="container mobileHide">
         <h2 class="text-center fw-bold basecolor mt-4">Books</h2>
         <div class="container" id="articles">
@@ -325,10 +325,47 @@
           </div>
         </div>
       </div>
+
+      <!-- Books Mobile -->
+      <div class="container mobileShow">
+        <h2 class="text-center fw-bold basecolor mt-4">Books</h2>
+        <div class="container" id="articles">
+          <div class="scrolling-wrapper mx-auto">
+            <div class="scrollcard">
+              <div class="card mx-3 shadow" style="width: 14rem;">
+                <img src="assets/book_one.svg" class="card-img-top" alt="what i wish i knew before composting">
+                <div class="card-body">
+                  <h5 class="card-title">Worms Eat My Garbage</h5>
+                  <p class="card-text">It’s written in a friendly tone which will make you feel like you are having a conversation instead of reading a book.</p>
+                </div>
+              </div>
+            </div>
+            <div class="scrollcard">
+              <div class="card mx-3 shadow" style="width: 15rem;">
+                <img src="assets/book_two.svg" class="card-img-top" alt="grow Pittsburgh tips">
+                <div class="card-body">
+                  <h5 class="card-title">The Rodale Book of Composting</h5>
+                  <p class="card-text">A comprehensive book. 
+                    It delves into the science behind what goes on in compost and the chemical reactions taking place.</p>
+                </div>
+              </div>
+            </div>
+            <div class="scrollcard">
+              <div class="card mx-3 shadow" style="width: 15rem;">
+                <img src="assets/book_three.svg" class="card-img-top" alt="composting myths">
+                <div class="card-body">
+                  <h5 class="card-title">The Humanure Handbook</h5>
+                  <p class="card-text">The second edition of The Humanure Handbook is completely revised, but retains that element of improbable humor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Other Ways to Get Involved -->
-    <div class="mx-0 py-3" id="otherResults">
+    <div class="mx-0 py-3 mobileHide" id="otherResults">
       <h2 class="text-center fw-bold basecolor mt-4">Other Ways to Get Involved</h2>
         <div class="container">
           <div class="row mx-auto">
@@ -370,7 +407,6 @@
         <button class="btn btn-warning fw-bold rounded-pill py-2" type="button">Go to the FAQs</button>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
