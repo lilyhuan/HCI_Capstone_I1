@@ -132,7 +132,6 @@ body {
   }
 }
 
-
 .btn-group-vertical {
   width: 80%;
 }
@@ -184,4 +183,30 @@ body {
 
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
+}
+/*The first hero */
+.hero-1 {
+  background-color: rgba(231, 249, 233, 1);
+}
+.display-5 {
+  color: rgba(110, 125, 12, 1);
+}
+.subtext {
+  color: rgba(110, 125, 12, 1);
+}
+#button{
+  font-weight: bold;
+}
+/*The sticky footer
+.background-rect{
+  padding-top: 60px;
+  height: 5em;
+  width: 100em;
+  background-color: black;
+}
+*/
+
+
+.b-example-divider{
+  background-color: white;
 }
