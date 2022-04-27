@@ -55,7 +55,7 @@ body {
   border-radius: 20%;
 }
 
-#otherResults h5 {
+#otherResults h3 {
   position: absolute;
   bottom: 65px;
 }
@@ -65,13 +65,20 @@ body {
   bottom: 15px;
 }
 
+#otherResultsCard {
+  max-width: 30rem;
+  /* max-height: 10rem; */
+  border-radius: 20%;
+
+}
+
 #FAQs {
   width: 100%;
   background-image: url(assets/skyline.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 220px;
+  height: 230px;
 }
 
 #FAQButton {
