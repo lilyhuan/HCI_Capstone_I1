@@ -193,7 +193,16 @@ body {
 }
 .subtext {
   color: rgba(110, 125, 12, 1);
+  font-weight: 500;
 }
 #button{
   font-weight: bold;
 }
+
+/*Making the white family responsive */
+#responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+
