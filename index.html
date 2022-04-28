@@ -17,6 +17,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+
     <title>Document</title>
   </head>
 
@@ -25,7 +27,7 @@
     <nav class="navbar navbar-expand-lg mobileHide">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="assets/logo.svg" alt="logo"
+          <img src="/assets/logo.svg" alt="logo"
         /></a>
       </div>
     </nav>
@@ -36,7 +38,7 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand mobileShow" href="index.html">
-          <img src="assets/logo_mobile.svg" alt="logo"
+          <img src="/assets/logo_mobile.svg" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -104,13 +106,33 @@
       </div>
     </nav>
 
+    <!-- Quiz Composting Pop Up -->
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Why Compost/first hero -->
 
     <div class="container col-xxl-8 px-4 py-5 hero-1">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="assets/girlcomposting.png"
+            src="/assets/girlcomposting.png"
             class="d-block mx-lg-auto img-fluid"
             alt="young black girl composting with her family"
             width="700"
@@ -147,7 +169,7 @@
           <button type="button" class="btn"><h4>Read More...</h4></button>
         </div>
         <div class="col-lg-6">
-            <img src="assets/methane.png" class="d-block mx-lg-auto img-fluid" alt="methane and trash" width=100% height=auto>
+            <img src="assets/methane.png" class="d-block mx-lg-auto img-fluid responsive-image" alt="methane and trash" width=100% height=auto>
             <div class="d-grid gap-2 d-md-flex">
             </div>    
         </div>
@@ -182,12 +204,12 @@
             in the right direction.
           </p>
           <div class="d-grid container mx-auto my-3" id="FAQButton">
-            <button
+            <a href="quiz_firstquestion.html">
+              <button
               class="btn btn-warning fw-bold rounded-pill py-2"
-              type="button"
-            >
-              Get Started!
-            </button>
+              type="button">Get Started!
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -244,14 +266,16 @@
     </div> -->
     <!-- Other Ways to Get Involved Desktop Version 2-->
     <div class="mx-0 py-3 mobileHide" id="otherResults">
-      <h2 class="text-center fw-bold basecolor mt-4">Other Ways to Get Involved</h2>
+      <h2 class="text-center fw-bold basecolor mt-4">Skip to the Quiz Results</h2>
         <div class="container">
+          <a href="result_diy.html">
               <div class="card mx-auto shadow my-3" id="otherResultsCard">
                 <img src="assets/dropoff_blur.svg" class="card-img" alt="what i wish i knew before composting">
                 <div class="card-img-overlay text-white d-flex">
                   <h3 class="card-title fw-bold">Drop Off/Pick Up Composting</h5>
                   <p class="card-text">Let someone else handle the composting.</p>
                 </div>
+              </a>
               </div>
               <div class="card mx-auto shadow my-3" id="otherResultsCard">
                 <img src="assets/support_blur.svg" class="card-img" alt="what i wish i knew before composting">
@@ -323,11 +347,13 @@
     <!-- FAQs -->
     <div class="mx-0 mt-5 py-3" id="FAQs">
       <h2 class="text-center fw-bold basecolor mt-4">Have More Questions?</h2>
-      <div class="d-grid container mx-auto my-3" id="FAQButton">
-        <button class="btn btn-warning fw-bold rounded-pill py-2" type="button">
-          Go to the FAQs
-        </button>
-      </div>
+      <a class="faqlink" href = "faqs.html">
+        <div class="d-grid container mx-auto my-3" id="FAQButton">
+          <button class="btn btn-warning fw-bold rounded-pill py-2" type="button">
+            Go to the FAQs
+          </button>
+        </div>
+      </a>
     </div>
 
     <script
