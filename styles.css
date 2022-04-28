@@ -201,6 +201,10 @@ body {
 .subtext {
   color: rgba(110, 125, 12, 1);
 }
-#button{
+.button{
   font-weight: bold;
+}
+/*Taking away the underline of the FAQ button */
+.faqlink{
+  text-decoration: none;
 }
